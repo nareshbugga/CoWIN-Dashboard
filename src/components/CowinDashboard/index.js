@@ -22,10 +22,7 @@ class CowinDashboard extends Component {
   getVaccinationData = async () => {
     this.setState({dataView: apiViews.inProgress})
     const apiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
-    const options = {
-      method: 'GET',
-    }
-    const response = await fetch(apiUrl, options)
+    const response = await fetch(apiUrl)
     if (response.ok === true) {
       const data = await response.json()
       const updatedData = {
@@ -81,7 +78,7 @@ class CowinDashboard extends Component {
 
   renderLoader = () => (
     <div data-testid="loader" className="container">
-      <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
+      <Loader type="ThreeDots" color=" #f54394" height={80} width={80} />
     </div>
   )
 

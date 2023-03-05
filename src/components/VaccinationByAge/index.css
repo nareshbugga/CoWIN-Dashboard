@@ -2,8 +2,8 @@
 .vaccination-container {
   background-color: #1c1c2b;
   background-size: cover;
-  min-height: 100vh;
-  padding: 25px;
+  height: 100vh;
+  padding: 20px;
   margin-bottom: 25px;
 }
 .vaccination-heading {
