@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.vaccination-container {
+  background-color: #1c1c2b;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.vaccination-heading {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
